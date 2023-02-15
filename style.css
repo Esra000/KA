@@ -1,0 +1,80 @@
+body {
+	background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    
+}
+	
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+#header{
+    grid-column-start: 1;
+    
+    border-radius:5px;
+    text-align: left;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+#linkliste {
+    grid-column-start: 1;
+   
+    grid-row-end: 3;
+   
+    
+    border-radius:5px;
+    font-size: 12pt;
+}
+
+#formular {
+   
+    grid-column-end: 4;
+    grid-row-start: 2;
+   
+}
+
+#footer {
+   
+    
+    
+    border-radius:5px;
+   
+    padding: 10px;
+}
+
+a {
+	
+	font-size:18pt;
+	
+}
+
+.link {
+	
+	color:white;
+}
+
+h1{
+    font-size: 15pt;    
+}
+
+
+
+#logo {
+   
+    border-radius:5px;
+    
+}
+
+@media only screen and (orientation: ???) {
+  
+  }
+
+	
+	
+	
+	
